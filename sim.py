@@ -28,11 +28,15 @@ client.subscribe("chris")
 print("Publishing message to topic","chris")
 for ch in chn:
     client.subscribe(chn[ch].Description)
-
-while True
+a = 1
+while a == 1:
     for ch in chn:
-        rnd = randrange(10,30)
+        if chn[ch].ioLengte > 1:
+            rnd = randrange(10,30)
+        else:
+            rnd = randrange(0,2)
         # client.publish(ch.channelName,rnd)
         client.publish(chn[ch].Description,rnd)
-    time.sleep(4) # wait
+    time.sleep(1) # wait
+    print("nog eens")
 client.loop_stop() #stop the loop
