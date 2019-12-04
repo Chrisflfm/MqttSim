@@ -8,10 +8,10 @@ class dm_Connection:
 
     def getConnection():
         try:
-            connection = mysql.connector.connect(host='UbuntuPrime',
+            connection = mysql.connector.connect(host='localhost',
                                                  database='Munerica',
-                                                 user='mqtt',
-                                                 password='')
+                                                 user='root',
+                                                 password='Murbella*')
 
             if connection.is_connected():
                 return connection
