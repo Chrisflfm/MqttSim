@@ -30,8 +30,8 @@ for x in f:
     chn.append(x[:-1]) 
 f.close
 
-# broker_address="localhost"
-broker_address="192.168.1.13"
+broker_address="localhost"
+# broker_address="192.168.1.4"
 # broker2_address="192.168.5.134"
 #broker_address="iot.eclipse.org"
 print("creating new instance")
@@ -64,7 +64,7 @@ while a == 1:
             if ch[:1] =="t" or ch[:3] =="cvt":
                 rnd = randrange(10,30)
             elif ch[:3] =="drk":
-                rnd = randrange(0,4)
+                rnd = randrange(15,25)/10
             elif ch[:3] =="pos":
                 rnd = randrange(0,100)
             elif ch[:3] =="rpm":

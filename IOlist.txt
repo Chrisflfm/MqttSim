@@ -157,6 +157,8 @@ vtVV1.9R-4
 vtVV1.9R-5
 vtVV1.9R-6
 vtAanvWarmVerdConv7
+drkKoudH2O
+drkWarmH2O
 vtRetWarmVerdConv7
 vtAanvKoudVerdConv7
 vtRetKoudVerdConv7
